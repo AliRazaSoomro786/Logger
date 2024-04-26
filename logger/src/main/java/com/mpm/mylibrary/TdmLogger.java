@@ -27,6 +27,8 @@ public class TdmLogger {
 
             JSONObject jsonObject;
 
+
+
             if (transitObject.isEmpty()) jsonObject = new JSONObject();
             else jsonObject = new JSONObject(transitObject);
 
